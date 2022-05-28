@@ -75,6 +75,7 @@
             <form action="#">
               <input type="text" class="form-control" placeholder="Enter your email..">
               <button type="submit" class="btn btn-success btn-block mt-2">Subscribe</button>
+              
             </form>
           </div>
         </div>

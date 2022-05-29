@@ -15,19 +15,16 @@
                 <router-link class="nav-link" to="/">Home</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/about">Sobre</router-link>
+                <router-link class="nav-link" to="/sobre">Sobre</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/about">Como posso te ajudar?</router-link>
+                <router-link class="nav-link" to="/como-posso-ajudar">Como posso te ajudar?</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/about">Serviços</router-link>
+                <router-link class="nav-link" to="/serviços">Serviços</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/about">Contato</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="btn btn-primary ml-lg-2" to="/about">Blog</router-link>
+                <router-link class="btn btn-primary ml-lg-2" to="/sobre">Blog</router-link>
               </li>
             </ul>
           </div>

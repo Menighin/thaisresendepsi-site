@@ -2065,10 +2065,24 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 40px 0 0 40px;
 }
 
+
+/* THEME CUSTOMIZATION */
 .header-bg {
-  background-color: var(--light);
+  background-color: #fff;
 }
 
 .router-link-active {
   color: var(--accent) !important;
+}
+
+.contacts {
+  margin: 0 10px;
+  a {
+    background-color: var(--accent);
+    color: white;
+
+    &:hover {
+      background-color: var(--secondary);
+    }
+  }
 }

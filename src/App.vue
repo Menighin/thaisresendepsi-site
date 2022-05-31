@@ -29,6 +29,8 @@
             </ul>
           </div>
 
+          <Contacts />
+
         </div>
       </nav>
     </header>
@@ -39,45 +41,22 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-3 py-3">
-            <h3>SEOGram</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero amet, repellendus eius blanditiis in iusto eligendi iure.</p>
-
-            <div class="social-media-button">
-              <a href="#"><span class="mai-logo-facebook-f"></span></a>
-              <a href="#"><span class="mai-logo-twitter"></span></a>
-              <a href="#"><span class="mai-logo-google-plus-g"></span></a>
-              <a href="#"><span class="mai-logo-instagram"></span></a>
-              <a href="#"><span class="mai-logo-youtube"></span></a>
-            </div>
+            <h3>Thaís Resende</h3>
+            <p>Atendimento psicológico presencial em Belo Horizonte e online para todo Brasil</p>
+            <Contacts />
           </div>
           <div class="col-lg-3 py-3">
-            <h5>Company</h5>
-            <ul class="footer-menu">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Career</a></li>
-              <li><a href="#">Advertise</a></li>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Help & Support</a></li>
-            </ul>
+            <h5>Entre em contato</h5>
+            <a href="#" class="footer-link">(31) 9 9516 9604</a>
+            <a href="#" class="footer-link">thaisresendepsi@gmail.com</a>
           </div>
           <div class="col-lg-3 py-3">
-            <h5>Contact Us</h5>
-            <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
-            <a href="#" class="footer-link">+00 1122 3344 5566</a>
-            <a href="#" class="footer-link">seogram@temporary.com</a>
-          </div>
-          <div class="col-lg-3 py-3">
-            <h5>Newsletter</h5>
-            <p>Get updates, news or events on your mail.</p>
-            <form action="#">
-              <input type="text" class="form-control" placeholder="Enter your email..">
-              <button type="submit" class="btn btn-success btn-block mt-2">Subscribe</button>
-              
-            </form>
+            <h5>Ética</h5>
+            <p>Entenda e procure um profissional que siga o <a href="https://site.cfp.org.br/wp-content/uploads/2012/07/codigo-de-etica-psicologia.pdf" target="_blank">código de ética</a> do Conselho Regional de Psicologia</p>
           </div>
         </div>
 
-        <p class="text-center" id="copyright">Copyright &copy; 2020. This template design and develop by <a href="https://macodeid.com/" target="_blank">MACode ID</a></p>
+        <p class="text-center" id="copyright">Copyright &copy; 2022</p>
       </div>
     </footer>
   </main>
@@ -87,6 +66,7 @@
   import { RouterLink, RouterView } from 'vue-router'
   import { onMounted, ref, computed, reactive, onUnmounted, onBeforeMount } from '@vue/runtime-core'
   import { debounce } from './utils/helpers';
+  import Contacts from './components/Contacts.vue';
 
   const nav = ref(null);
   const fixNav = ref(false);
@@ -113,10 +93,10 @@
   }
 </script>
 
-<style>
+<style lang="scss">
   /* @import '@/assets/base.css'; */
   @import '@/assets/css/maicons.css';
   @import '@/assets/css/bootstrap.css';
   @import '@/assets/css/animate.css';
-  @import '@/assets/css/theme-light.css';
+  @import '@/assets/css/theme-light.scss';
 </style>

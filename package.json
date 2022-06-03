@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "vue": "^3.2.33",
+    "vue-inline-svg": "^3.1.0",
     "vue-router": "^4.0.14"
   },
   "devDependencies": {

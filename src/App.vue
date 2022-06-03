@@ -1,10 +1,9 @@
 <template>
   <main>
     <header>
-      <nav class="navbar navbar-expand-lg header-bg navbar-light sticky" data-offset="500" ref="nav" :class="{ fixed: fixNav }">
+      <nav class="navbar navbar-expand-lg navbar-light sticky" data-offset="500" ref="nav" :class="{ fixed: fixNav }">
         <div class="container">
-          <a href="#" class="navbar-brand">Thais<span class="text-primary">Resende</span></a>
-
+          <inline-svg :src="LogoHorizontal" height="50" width="250"/>
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -54,6 +53,9 @@
             <h5>Ética</h5>
             <p>Entenda e procure um profissional que siga o <a href="https://site.cfp.org.br/wp-content/uploads/2012/07/codigo-de-etica-psicologia.pdf" target="_blank">código de ética</a> do Conselho Regional de Psicologia</p>
           </div>
+          <div class="col-lg-3 py-3 text-center">
+            <inline-svg :src="LogoVertical" width="200" height="200"/>
+          </div>
         </div>
 
         <p class="text-center" id="copyright">Copyright &copy; 2022</p>
@@ -67,6 +69,9 @@
   import { onMounted, ref, computed, reactive, onUnmounted, onBeforeMount } from '@vue/runtime-core'
   import { debounce } from './utils/helpers';
   import Contacts from './components/Contacts.vue';
+  import InlineSvg from 'vue-inline-svg';
+  import LogoVertical from './assets/img/logo_vertical.svg';
+  import LogoHorizontal from './assets/img/logo_horizontal.svg';
 
   const nav = ref(null);
   const fixNav = ref(false);
@@ -99,4 +104,7 @@
   @import '@/assets/css/bootstrap.css';
   @import '@/assets/css/animate.css';
   @import '@/assets/css/theme-light.scss';
+  @import '@/assets/css/theme-base.scss';
+
+
 </style>

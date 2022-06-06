@@ -1,7 +1,7 @@
 <template>
   <div class="back-to-top"></div>
 
-  <header>
+  <header id="home">
     <div class="container">
       <div class="page-banner home-banner">
         <div class="row align-items-center flex-wrap-reverse h-100">
@@ -44,7 +44,7 @@
     </div> <!-- .container -->
   </div> <!-- .page-section -->
 
-  <div class="page-section bg-light">
+  <div class="page-section bg-light" id="how-can-i-help">
     <div class="container">
 
       <div class="row align-items-center">

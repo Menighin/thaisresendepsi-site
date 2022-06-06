@@ -11,24 +11,24 @@
           <div class="navbar-collapse collapse" id="navbarContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <router-link class="nav-link" to="/">Home</router-link>
+                <a href="#home" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/sobre">Sobre</router-link>
+                <a href="#about" class="nav-link">Sobre</a>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/como-posso-ajudar">Como posso te ajudar?</router-link>
+                <a href="#how-can-i-help" class="nav-link">Como posso te ajudar?</a>
               </li>
               <li class="nav-item">
-                <router-link class="nav-link" to="/serviços">Serviços</router-link>
+                <a href="#services" class="nav-link">Serviços</a>
               </li>
-              <li class="nav-item">
-                <router-link class="btn btn-primary ml-lg-2" to="/sobre">Blog</router-link>
-              </li>
+              <!-- <li class="nav-item">
+                <button class="btn btn-primary ml-lg-2" to="/sobre">Blog</button>
+              </li> -->
             </ul>
-          </div>
 
-          <Contacts />
+            <Contacts />
+          </div>
 
         </div>
       </nav>
@@ -90,6 +90,7 @@
   });
 
   const handleScroll = () => {
+    console.log('oi');
     const scrollY = window.scrollY;
     if (scrollY > 120)
       fixNav.value = true;

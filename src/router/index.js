@@ -8,22 +8,7 @@ const router = createRouter({
       path: '/',
       name: 'index',
       component: IndexView
-    },
-    {
-      path: '/sobre',
-      name: 'about',
-      component: () => import('../views/AboutView.vue')
-    },
-    {
-      path: '/como-posso-ajudar',
-      name: 'how-can-i-help',
-      component: () => import('../views/HowCanIHelpView.vue')
-    },
-    {
-      path: '/serviços',
-      name: 'services',
-      component: () => import('../views/ServicesView.vue')
-    },
+    }
   ]
 })
 

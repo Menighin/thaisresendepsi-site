@@ -1,7 +1,5 @@
 <template>
-  <div class="back-to-top"></div>
-
-  <header id="home">
+  <div id="home">
     <div class="container">
       <div class="page-banner home-banner">
         <div class="row align-items-center flex-wrap-reverse h-100">
@@ -19,7 +17,7 @@
         <a href="#about" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>
       </div>
     </div>
-  </header>
+  </div>
 
   <div class="page-section" id="about">
     <div class="container">

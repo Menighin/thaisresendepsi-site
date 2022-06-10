@@ -1,14 +1,15 @@
 <template>
-  <main>
+  <main id="main">
     <header>
+      <a href="#main" class="back-to-top" :class="{ active: fixNav }"></a>
       <nav class="navbar navbar-expand-lg navbar-light sticky" data-offset="500" ref="nav" :class="{ fixed: fixNav }">
         <div class="container">
           <inline-svg :src="LogoHorizontal" height="50" width="250"/>
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" @click="toggleNav = !toggleNav">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="navbar-collapse collapse" id="navbarContent">
+          <div class="navbar-collapse collapse" :class="{ show: toggleNav }">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="#home" class="nav-link">Home</a>
@@ -26,13 +27,14 @@
                 <button class="btn btn-primary ml-lg-2" to="/sobre">Blog</button>
               </li> -->
             </ul>
-
-            <Contacts />
           </div>
-
+          <Contacts />
         </div>
+        
       </nav>
     </header>
+
+    <div class="padding-fix" :class="{ active: fixNav }" />
 
     <RouterView />
 
@@ -73,8 +75,8 @@
   import LogoVertical from './assets/img/logo_vertical.svg';
   import LogoHorizontal from './assets/img/logo_horizontal.svg';
 
-  const nav = ref(null);
   const fixNav = ref(false);
+  const toggleNav = ref(false);
 
   onBeforeMount(() => {
 
@@ -90,7 +92,6 @@
   });
 
   const handleScroll = () => {
-    console.log('oi');
     const scrollY = window.scrollY;
     if (scrollY > 120)
       fixNav.value = true;

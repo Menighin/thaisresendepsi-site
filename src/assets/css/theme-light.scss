@@ -51,3 +51,13 @@
     }
   }
 }
+
+.theme-icon {
+  .head {
+    fill: var(--primary);
+  }
+
+  .mental-icon {
+    fill: white !important;
+  }
+}

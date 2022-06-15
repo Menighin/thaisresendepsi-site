@@ -82,7 +82,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="Illness" width="68" height="68"/>
             </div>
             <h5>Adoecimento</h5>
           </div>
@@ -90,7 +90,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="Anguish" width="68" height="68"/>
             </div>
             <h5>Angústia</h5>
           </div>
@@ -98,7 +98,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="Anxiety" width="68" height="68"/>
             </div>
             <h5>Ansiedade</h5>
           </div>
@@ -106,7 +106,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="LowSelfSteem" width="68" height="68"/>
             </div>
             <h5>Baixa autoestima</h5>
           </div>
@@ -114,7 +114,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="Burnout" width="68" height="68"/>
             </div>
             <h5>Burnout</h5>
           </div>
@@ -122,7 +122,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="Depression" width="68" height="68"/>
             </div>
             <h5>Depressão</h5>
           </div>
@@ -130,7 +130,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="Relationship" width="68" height="68"/>
             </div>
             <h5>Dificuldades nos relacionamentos</h5>
           </div>
@@ -138,7 +138,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="Aging" width="68" height="68"/>
             </div>
             <h5>Envelhecimento</h5>
           </div>
@@ -146,7 +146,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="TraumaticEvents" width="68" height="68"/>
             </div>
             <h5>Eventos traumáticos</h5>
           </div>
@@ -154,7 +154,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="Phobias" width="68" height="68"/>
             </div>
             <h5>Fobias</h5>
           </div>
@@ -162,7 +162,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="Grief" width="68" height="68"/>
             </div>
             <h5>Luto</h5>
           </div>
@@ -170,7 +170,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="Obsession" width="68" height="68"/>
             </div>
             <h5>Obsessão e compulsão</h5>
           </div>
@@ -178,7 +178,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="Suffering" width="68" height="68"/>
             </div>
             <h5>Sofrimento mental</h5>
           </div>
@@ -186,7 +186,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="Somatization" width="68" height="68"/>
             </div>
             <h5>Somatizações</h5>
           </div>
@@ -194,7 +194,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="EatingDisorders" width="68" height="68"/>
             </div>
             <h5>Transtornos alimentares</h5>
           </div>
@@ -202,7 +202,7 @@
         <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
-              <span class="mai-business"></span>
+              <inline-svg class="theme-icon" :src="Addictions" width="68" height="68"/>
             </div>
             <h5>Uso intenso de alcool e drogas</h5>
           </div>
@@ -229,7 +229,7 @@
           <p>
             Caso tenha interesse em agendar uma sessão e ter acesso a maiores informações, entre em contato no Whatsapp abaixo.
           </p>
-          <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=5531995169604"><span class="mai-logo-whatsapp"></span> (31) 9 9516 9604</a>
+          <a class="btn btn-primary" target="_blank" href="https://api.whatsapp.com/send?phone=5531995169604"><span class="mai-logo-whatsapp"></span> (31) 9 9516 9604</a>
         </div>
         <div class="col-lg-6 py-3 wow fadeInUp">
           <div class="img-fluid py-3 text-center">
@@ -252,7 +252,7 @@
           <p>
             Para uma melhor imersão e entendimento, é importante o uso de fones de ouvido e uma conexão estável com a internet.
           </p>
-          <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=5531995169604"><span class="mai-logo-whatsapp"></span> (31) 9 9516 9604</a>
+          <a class="btn btn-primary" target="_blank" href="https://api.whatsapp.com/send?phone=5531995169604"><span class="mai-logo-whatsapp"></span> (31) 9 9516 9604</a>
         </div>
       </div>
 
@@ -319,3 +319,24 @@
     </div>
   </div> -->
 </template>
+
+<script setup>
+  import InlineSvg from 'vue-inline-svg';
+  import Illness from '../assets/icons/Illness.svg';
+  import Anguish from '../assets/icons/Anguish.svg';
+  import Anxiety from '../assets/icons/Anxiety.svg';
+  import LowSelfSteem from '../assets/icons/LowSelfSteem.svg';
+  import Burnout from '../assets/icons/Burnout.svg';
+  import Depression from '../assets/icons/Depression.svg';
+  import Relationship from '../assets/icons/Relationship.svg';
+  import Aging from '../assets/icons/Aging.svg';
+  import TraumaticEvents from '../assets/icons/TraumaticEvents.svg';
+  import Phobias from '../assets/icons/Phobias.svg';
+  import Grief from '../assets/icons/Grief.svg';
+  import Obsession from '../assets/icons/Obsession.svg';
+  import Suffering from '../assets/icons/Suffering.svg';
+  import Somatization from '../assets/icons/Somatization.svg';
+  import EatingDisorders from '../assets/icons/EatingDisorders.svg';
+  import Addictions from '../assets/icons/Addictions.svg'
+
+</script>

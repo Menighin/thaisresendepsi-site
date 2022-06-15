@@ -56,7 +56,7 @@
             <p>Entenda e procure um profissional que siga o <a href="https://site.cfp.org.br/wp-content/uploads/2012/07/codigo-de-etica-psicologia.pdf" target="_blank">código de ética</a> do Conselho Regional de Psicologia</p>
           </div>
           <div class="col-lg-3 py-3 text-center">
-            <inline-svg :src="LogoVertical" width="200" height="200"/>
+            <inline-svg class="logo-footer" :src="LogoVertical" width="200" height="200"/>
           </div>
         </div>
 

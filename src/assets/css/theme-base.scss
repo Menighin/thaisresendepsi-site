@@ -1264,9 +1264,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 .features .header {
   display: inline-block;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
+  width: 92px;
+  height: 92px;
+  line-height: 92px;
   border-radius: 50%;
   text-align: center;
   background-color: #fff;
@@ -1568,6 +1568,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .blog-item .meta a:hover {
   text-decoration: none;
+}
+
+.logo-footer {
+  margin-top: -35px;
 }
 
 .padding-fix.active {

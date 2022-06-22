@@ -1,0 +1,119 @@
+
+ /* Forest green #4C7D60 */
+ /* Lima green #A9BA88 */
+ /* Pink FF3D85 */
+
+:root {
+  --theme-1: #2E3A42;
+  --theme-2: #4C7D60;
+  --theme-3: #A9BA88;
+  --theme-4: #A9BAB5;
+  --theme-5: #DFE2E0;
+  --accent: #c65555;
+
+  --primary: #A9BAB5;
+  --primary-focus: #4C7D60;
+
+  --secondary: #645F88;
+  --success: #35bb78;
+  --grey: #B4B2C5;
+  --dark: #2E3A42;
+  --light: #DFE2E0;
+}
+
+/* THEME CUSTOMIZATION */
+body {
+  color: var(--theme-5);
+  background-color: var(--theme-1);
+}
+
+.navbar {
+  background-color: var(--theme-1);
+
+  .nav-link {
+    color: var(--theme-5) !important;
+
+    &:focus, &:hover {
+      color: var(--theme-4) !important;
+    }
+
+    &.active {
+      font-weight: 500;
+      color: var(--theme-2);
+    }
+
+  }
+
+  .logo-horizontal {
+    .logo, .name {
+      fill: var(--theme-5);
+    }
+  }
+}
+
+.title-section {
+  color: var(--theme-3);
+}
+
+.page-section {
+  color: var(--theme-5);
+}
+
+.page-banner {
+  background-color: var(--theme-2);
+  color: var(--theme-4);
+
+  p {
+    color: var(--theme-5);
+  }
+}
+
+.bg-accent {
+  background-color: var(--theme-2) !important;
+}
+
+.features {
+  .header {
+    background-color: var(--dark);
+  }
+  h5 {
+    color: var(--theme-5);
+  }
+}
+
+.contacts {
+  margin: 0 10px;
+  a {
+    background-color: var(--accent);
+    color: white;
+
+    &:hover {
+      background-color: var(--theme-2);
+    }
+  }
+}
+
+.page-footer {
+
+  background-color: var(--theme-2);
+
+  p {
+    color: var(--theme-5)
+  }
+
+  .logo-vertical {
+    .logo, .name, .subtitle {
+      fill: var(--theme-5)
+    }
+  }
+}
+
+.theme-icon {
+  .head {
+    fill: var(--accent);
+  }
+
+  .mental-icon {
+    fill: var(--theme-5) !important;
+  }
+}

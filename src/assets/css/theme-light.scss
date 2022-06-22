@@ -18,8 +18,26 @@
 }
 
 /* THEME CUSTOMIZATION */
+body {
+  color: var(--dark);
+}
+
 .navbar {
   background-color: #fff;
+
+  .nav-link {
+    color: rgba(100, 95, 136, 0.75) !important;
+
+    &:focus, &:hover {
+      color: var(--secondary) !important;
+    }
+
+    &.active {
+      font-weight: 500;
+      color: var(--primary);
+    }
+
+  }
 
   .logo-horizontal {
     .logo, .name {
@@ -28,8 +46,25 @@
   }
 }
 
-.router-link-active {
-  color: var(--accent) !important;
+.bg-accent {
+  background-color: var(--light) !important;
+}
+
+.title-section {
+  color: var(--secondary);
+}
+
+.page-section {
+  color: #898798;
+}
+
+.page-banner {
+  background-color: var(--light);
+  color: var(--secondary);
+}
+
+.features .header {
+  background-color: #fff;
 }
 
 .contacts {
@@ -45,6 +80,9 @@
 }
 
 .page-footer {
+
+  background-color: var(--dark);
+
   .logo-vertical {
     .logo, .name, .subtitle {
       fill: var(--light)

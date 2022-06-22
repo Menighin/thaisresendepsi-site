@@ -105,7 +105,7 @@
   @import '@/assets/css/maicons.css';
   @import '@/assets/css/bootstrap.css';
   @import '@/assets/css/animate.css';
-  @import '@/assets/css/theme-light.scss';
+  @import '@/assets/css/theme-dark.scss';
   @import '@/assets/css/theme-base.scss';
 
 

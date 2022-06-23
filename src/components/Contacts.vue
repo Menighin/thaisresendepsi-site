@@ -19,7 +19,7 @@ export default {
       border-radius: 50%;
       line-height: 44px;
       padding: 10px;
-      margin: 0 2px;
+      margin: 0 2px 0;
       text-decoration: none;
     }
   }

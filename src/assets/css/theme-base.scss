@@ -8,16 +8,9 @@ body {
 }
 
 a {
-  color: var(--primary);
   text-decoration: none;
   background-color: transparent;
 }
-
-a:hover {
-  color: #5641df;
-  text-decoration: underline;
-}
-
 
 .text-xs {
   font-size: 12px !important;

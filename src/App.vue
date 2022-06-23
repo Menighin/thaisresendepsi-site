@@ -2,7 +2,7 @@
   <main id="main">
     <header>
       <a href="#main" class="back-to-top" :class="{ active: fixNav }"></a>
-      <nav class="navbar navbar-expand-lg navbar-light sticky" data-offset="500" ref="nav" :class="{ fixed: fixNav }">
+      <nav class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500" ref="nav" :class="{ fixed: fixNav }">
         <div class="container">
           <inline-svg :src="LogoHorizontal" height="50" width="250"/>
           <button class="navbar-toggler" @click="toggleNav = !toggleNav">

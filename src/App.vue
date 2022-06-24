@@ -11,17 +11,8 @@
 
           <div class="navbar-collapse collapse" :class="{ show: toggleNav }">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a href="#home" class="nav-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#about" class="nav-link">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a href="#how-can-i-help" class="nav-link">Como posso te ajudar?</a>
-              </li>
-              <li class="nav-item">
-                <a href="#services" class="nav-link">Serviços</a>
+              <li v-for="n in navLinks" :key="n.id" class="nav-item" :class="{ active: n.active }" >
+                <a :href="`#${n.id}`" class="nav-link">{{ n.label }}</a>
               </li>
               <!-- <li class="nav-item">
                 <button class="btn btn-primary ml-lg-2" to="/sobre">Blog</button>
@@ -77,15 +68,52 @@
 
   const fixNav = ref(false);
   const toggleNav = ref(false);
+  const navLinks = ref([
+    {
+      id: 'home',
+      label: 'Home',
+      active: true
+    },
+    {
+      id: 'about',
+      label: 'Sobre',
+      active: false
+    },
+    {
+      id: 'how-can-i-help',
+      label: 'Como posso ajudar?',
+      active: false
+    },
+    {
+      id: 'services',
+      label: 'Serviços',
+      active: false
+    }
+  ]);
 
-  onBeforeMount(() => {
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(e => {
+      if (e.isIntersecting)
+        navLinks.value.filter(o => o.id === e.target.id)[0].active = true;
+      else
+        navLinks.value.filter(o => o.id === e.target.id)[0].active = false;
+    })
+  }, { threshold: [0.5] });
 
-  })
+  setTimeout(() => {
+    navLinks
+      .value
+      .map(o => o.id)
+      .forEach(id => {
+        observer.observe(document.getElementById(id))
+      })
+  }, 200);
 
   onMounted(() => {
     new WOW().init();    
     window.addEventListener('scroll', debounce(handleScroll, 100));
   });
+
 
   onUnmounted(() => {
     window.removeEventListener('scroll', debounce(handleScroll, 100));

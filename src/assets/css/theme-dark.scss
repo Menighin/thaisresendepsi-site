@@ -32,16 +32,18 @@ a {
     color: red !important;
   }
 
-  .nav-link {
-    color: var(--theme-5) !important;
+  .nav-item {
 
-    &:focus, &:hover {
-      color: var(--theme-4) !important;
+    &.active .nav-link {
+      color: var(--theme-3) !important;
     }
 
-    &.active {
-      font-weight: 500;
-      color: var(--theme-2);
+    .nav-link {
+      color: var(--theme-5) !important;
+
+      &:focus, &:hover {
+        color: var(--theme-5) !important;
+      }
     }
 
   }

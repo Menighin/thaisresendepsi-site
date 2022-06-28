@@ -4,7 +4,8 @@
   --theme-3: #A9BA88;
   --theme-4: #A9BAB5;
   --theme-5: #DFE2E0;
-  --accent: #c65555;
+  --accent: #a4243b;
+  --accent-hover: #ba4056;
 }
 
 /* THEME CUSTOMIZATION */
@@ -21,7 +22,10 @@ a {
   }
 
   &.footer-link {
-    color: var(--theme-5);
+    color: var(--theme-1);
+    &:hover {
+      color: var(--theme-3);
+    }
   }
 }
 
@@ -100,26 +104,30 @@ a {
 .contacts {
   margin: 0 10px;
   a {
-    background-color: var(--theme-2);
+    background-color: var(--accent);
     color: white;
 
     &:hover {
-      background-color: var(--theme-2);
+      background-color: var(--accent-hover);
     }
   }
 }
 
 .page-footer {
 
-  background-color: var(--theme-2);
+  background-color: var(--theme-5);
+
+  h3, h5 {
+    color: var(--accent) !important;
+  }
 
   p {
-    color: var(--theme-5)
+    color: var(--theme-1)
   }
 
   .logo-vertical {
     .logo, .name, .subtitle {
-      fill: var(--theme-5)
+      fill: var(--theme-1)
     }
   }
 }

@@ -6,16 +6,16 @@
           <div class="col-md-6 py-5 wow fadeInLeft">
             <h1 class="mb-4">Psicóloga, Psicanalista e Especialista em Saúde Mental</h1>
             <p class="text-lg mb-5">Atendimento psicológico em Belo Horizonte, e online, para qualquer localidade.</p>
-            <!-- <a href="#" class="btn btn-primary btn-split">Watch Video <div class="fab"><span class="mai-play"></span></div></a> -->
           </div>
-          <div class="col-md-6 py-5 wow zoomIn">
-            <div class="img-fluid text-center">
-              <img src="../assets/img/banner.png" alt="">
-            </div>
+          <div class="col-md-6 wow slideInRight banner-image-container banner-large">
+            <img src="../assets/img/banner-large.jpg" alt="">
+          </div>
+          <div class="col-md-6 wow slideInDown banner-image-container-small banner-small">
+            <img src="../assets/img/banner-small.jpg" alt="">
           </div>
         </div>
-        <a href="#about" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>
       </div>
+      <a href="#about" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>
     </div>
   </div>
 
@@ -340,3 +340,7 @@
   import Addictions from '../assets/icons/Addictions.svg'
 
 </script>
+
+<style scoped lang="scss">
+
+</style>

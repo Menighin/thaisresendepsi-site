@@ -845,6 +845,31 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 14px;
 }
 
+.banner-large {
+  display: none;
+}
+
+.home-banner {
+  .banner-image-container {
+    position: relative;
+    height: 100%;
+    right: 50px;
+    img {
+      max-height: 100%;
+      min-height: 100%;
+      position: absolute;
+    }
+  }
+
+  .banner-image-container-small {
+    img {
+      max-width: 100%;
+      min-width: 100%;
+    }
+  }
+
+}
+
 @media (max-width: 576px) {
   .navbar .container .contacts {
     margin-top: 5px;
@@ -871,6 +896,8 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar .container .contacts {
     display: block;
   }
+
+  
 }
 
 @media (min-width: 768px) {
@@ -886,6 +913,13 @@ a.text-dark:hover, a.text-dark:focus {
     align-items: center;
   }
 
+  .banner-large {
+    display: block;
+  }
+
+  .banner-small {
+    display: none;
+  }
 }
 
 @media (min-width: 992px) {
@@ -899,6 +933,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .navbar-expand-lg .navbar-nav {
     align-items: center;
+  }
+
+  .banner-image-container {
+    right: 0px !important;
   }
 }
 
@@ -1102,6 +1140,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .page-banner.home-banner {
   height: auto;
+  overflow: hidden;
 }
 
 .page-banner.home-banner .img-fluid {
@@ -1109,27 +1148,31 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 0 auto;
 }
 
-.page-banner.home-banner .btn-scroll {
-  position: absolute;
-  bottom: -14px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 26px;
-  height: 40px;
-  line-height: 44px;
-  background-color: #fff;
-  color: var(--secondary);
-  text-align: center;
-  border-radius: 40px;
-  box-shadow: 0 2px 6px rgba(100, 95, 136, 0.24);
-  transition: all .2s ease;
-}
+#home .container {
+  position: relative;
+  .btn-scroll {
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 26px;
+    height: 40px;
+    line-height: 44px;
+    background-color: #fff;
+    color: var(--secondary);
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 0 2px 6px rgba(100, 95, 136, 0.24);
+    transition: all .2s ease;
+    z-index: 100;
 
-.page-banner.home-banner .btn-scroll:hover {
-  text-decoration: none;
-  background-color: var(--primary);
-  color: #fff;
+    &:hover {
+      text-decoration: none;
+      background-color: var(--theme-2);
+      color: #fff;
+    }
+  }
 }
 
 @media (min-width: 768px) {

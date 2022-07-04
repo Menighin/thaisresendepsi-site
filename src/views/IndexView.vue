@@ -35,7 +35,7 @@
         </div>
         <div class="col-lg-6 py-3 wow fadeInRight">
           <div class="img-fluid py-3 text-center">
-            <img src="../assets/img/banner.png" alt="">
+            <img src="../assets/img/about_me.jpg" alt="Thais sorrindo sentada em seu consultório" class="thais-pic">
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6 py-3">
             <div class="img-fluid py-3 text-center">
-            <img src="../assets/img/banner.png" alt="">
+            <img src="../assets/img/how_can_i_help.jpg" alt="Foto de Thais sentada em seu consultório" width="500" class="thais-pic">
           </div>
         </div>
         <div class="col-lg-6 py-3 content-text">
@@ -233,14 +233,14 @@
         </div>
         <div class="col-lg-6 py-3 wow fadeInUp">
           <div class="img-fluid py-3 text-center">
-            <img src="../assets/img/banner.png" alt="">
+            <img src="../assets/img/map.jpg" alt="Mapa do Google Maps indicando onde fica o consultório" class="thais-pic">
           </div>
         </div>
       </div>
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInUp">
           <div class="img-fluid py-3 text-center">
-            <img src="../assets/img/banner.png" alt="">
+            <img src="../assets/img/online.jpg" alt="Thais atendendo online de sua mesa com o Notebook" class="thais-pic">
           </div>
         </div>
         <div class="col-lg-6 py-3 content-text wow fadeInUp">

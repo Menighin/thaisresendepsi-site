@@ -14,9 +14,6 @@
               <li v-for="n in navLinks" :key="n.id" class="nav-item" :class="{ active: n.active }" >
                 <a :href="`#${n.id}`" class="nav-link">{{ n.label }}</a>
               </li>
-              <!-- <li class="nav-item">
-                <button class="btn btn-primary ml-lg-2" to="/sobre">Blog</button>
-              </li> -->
             </ul>
           </div>
           <Contacts />

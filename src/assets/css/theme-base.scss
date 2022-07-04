@@ -875,7 +875,6 @@ a.text-dark:hover, a.text-dark:focus {
     margin-top: 5px;
     display: block;
     text-align: center;
-    background-color: var(--theme-2);
     width: 100%;
   }
 }
@@ -1573,4 +1572,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .back-to-top.active {
   visibility: visible;
+}
+
+.thais-pic {
+  border-radius: 50px;
 }

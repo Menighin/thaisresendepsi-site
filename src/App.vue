@@ -36,8 +36,8 @@
           </div>
           <div class="col-lg-3 py-3">
             <h5>Entre em contato</h5>
-            <a href="#" class="footer-link">(31) 9 9516 9604</a>
-            <a href="#" class="footer-link">psicologathaisresende@gmail.com</a>
+            <a href="https://api.whatsapp.com/send?phone=5531995169604" class="footer-link">(31) 9 9516 9604</a><br />
+            <a href="mailto:psicologathaisresende@gmail.com" class="footer-link">psicologathaisresende@gmail.com</a>
           </div>
           <div class="col-lg-3 py-3">
             <h5>Ética</h5>

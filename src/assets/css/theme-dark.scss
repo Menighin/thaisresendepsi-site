@@ -103,9 +103,11 @@ a {
 
 .contacts {
   margin: 0 10px;
-  a {
+  .contact {
     background-color: var(--accent);
-    color: white;
+    a {
+      color: white;
+    }
 
     &:hover {
       background-color: var(--accent-hover);

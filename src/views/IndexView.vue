@@ -79,7 +79,7 @@
         <div class="divider mx-auto"></div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="Illness" width="68" height="68"/>
@@ -87,7 +87,7 @@
             <h5>Adoecimento</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="Anguish" width="68" height="68"/>
@@ -95,7 +95,7 @@
             <h5>Angústia</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="Anxiety" width="68" height="68"/>
@@ -103,7 +103,7 @@
             <h5>Ansiedade</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="LowSelfSteem" width="68" height="68"/>
@@ -111,7 +111,7 @@
             <h5>Baixa autoestima</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="Burnout" width="68" height="68"/>
@@ -119,7 +119,7 @@
             <h5>Burnout</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="Depression" width="68" height="68"/>
@@ -127,7 +127,7 @@
             <h5>Depressão</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="Relationship" width="68" height="68"/>
@@ -135,7 +135,7 @@
             <h5>Dificuldades nos relacionamentos</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="Aging" width="68" height="68"/>
@@ -143,7 +143,7 @@
             <h5>Envelhecimento</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="TraumaticEvents" width="68" height="68"/>
@@ -151,7 +151,7 @@
             <h5>Eventos traumáticos</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="Phobias" width="68" height="68"/>
@@ -159,7 +159,7 @@
             <h5>Fobias</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="Grief" width="68" height="68"/>
@@ -167,7 +167,7 @@
             <h5>Luto</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="Obsession" width="68" height="68"/>
@@ -175,7 +175,7 @@
             <h5>Obsessão e compulsão</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="Suffering" width="68" height="68"/>
@@ -183,7 +183,7 @@
             <h5>Sofrimento mental</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="Somatization" width="68" height="68"/>
@@ -191,7 +191,7 @@
             <h5>Somatizações</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="EatingDisorders" width="68" height="68"/>
@@ -199,7 +199,7 @@
             <h5>Transtornos alimentares</h5>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
+        <div class="col-6 col-sm-6 col-lg-3 col-xl-2 py-3 wow zoomIn">
           <div class="features">
             <div class="header mb-3">
               <inline-svg class="theme-icon" :src="Addictions" width="68" height="68"/>

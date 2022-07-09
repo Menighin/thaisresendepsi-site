@@ -46,12 +46,12 @@
     <div class="container">
 
       <div class="row align-items-center">
-        <div class="col-lg-6 py-3">
+        <div class="col-lg-6 py-3 wow fadeInLeft">
             <div class="img-fluid py-3 text-center">
             <img src="../assets/img/how_can_i_help.jpg" alt="Foto de Thais sentada em seu consultório" width="500" class="thais-pic">
           </div>
         </div>
-        <div class="col-lg-6 py-3 content-text">
+        <div class="col-lg-6 py-3 content-text wow fadeInRight">
           <h2 class="title-section">Como posso ajudar?</h2>
           <div class="divider"></div>
             <p>

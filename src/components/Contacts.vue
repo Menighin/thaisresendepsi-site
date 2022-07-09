@@ -16,8 +16,7 @@ export default {
   .contacts {
     margin: 0 10px;
     a {
-      border-radius: 50%;
-      line-height: 44px;
+      border-radius: 100%;
       padding: 10px;
       margin: 0 2px 0;
       text-decoration: none;

@@ -5,7 +5,8 @@
         <div class="row align-items-center flex-wrap-reverse h-100">
           <div class="col-md-6 py-5 wow fadeInLeft">
             <h1 class="mb-4">Psicóloga, Psicanalista e Especialista em Saúde Mental</h1>
-            <p class="text-lg mb-5">Atendimento psicológico em Belo Horizonte, e online, para qualquer localidade.</p>
+            <p class="text-lg mb-2">Atendimento psicológico em Belo Horizonte, e online, para qualquer localidade.</p>
+            <p class="text-lg mb-5">CRP 04/56951</p>
           </div>
           <div class="col-md-6 wow slideInRight banner-image-container banner-large">
             <img src="../assets/img/banner-large.jpg" alt="">

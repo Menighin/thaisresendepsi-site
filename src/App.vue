@@ -31,6 +31,7 @@
         <div class="row mb-5">
           <div class="col-lg-3 py-3">
             <h3>Thaís Resende</h3>
+            <p>CRP 04/56951</p>
             <p>Atendimento psicológico presencial em Belo Horizonte e online para todo Brasil</p>
             <Contacts />
           </div>

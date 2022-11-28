@@ -321,7 +321,7 @@
 const faq1 = ref([
   {
       title: 'Como saber se preciso de atendimento psicológico?',
-      content: 'Caso você esteja enfrentando dificuldades no relacionamento com você mesmo, e com as pessoas ao seu redor, se a sua forma de funcionar na vida antes não tem funcionado mais agora, e tem trazido angústia. Se algo tem te incomodado, tem sido doloroso, enfim... Os motivos são muitos para se procurar por um processo terapêutico, e também muito individuais. Além do estalo de “preciso ajuda psicológica”, é importante que você deseje iniciar o processo, que deseje fazer esse investimento em você. '
+      content: 'Caso você esteja enfrentando dificuldades no relacionamento com você mesmo, e com as pessoas ao seu redor, se a sua forma de funcionar na vida antes não tem funcionado mais agora, e tem trazido angústia. Se algo tem te incomodado, tem sido doloroso, enfim... Os motivos são muitos para se procurar por um processo terapêutico, e também muito individuais. Além do estalo de “preciso de ajuda psicológica”, é importante que você deseje iniciar o processo, que deseje fazer esse investimento em você. '
   },
   {
       title: 'Aceita plano de saúde?',

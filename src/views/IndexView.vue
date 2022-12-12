@@ -336,7 +336,7 @@ const faq1 = ref([
 const faq2 = ref([
   {
       title: 'Qual a frequência das sessões?',
-      content: 'Na primeira sessão, além de ser o momento de nos conhecermos e eu entender como poderemos trabalhar, também iremos avaliar em conjunto, se trabalharemos com sessões semanais ou quinzenais. A frequência maior das sessões é de extrema importância para o andamento do processo terapêutico.'
+      content: 'Na primeira sessão, além de ser o momento de nos conhecermos e eu entender como poderemos trabalhar, também iremos avaliar em conjunto, sobre a frequência das sessões. Lembrando que uma frequência maior é de extrema importância para o andamento do processo terapêutico.'
   },
   {
       title: 'Quanto tempo ficarei fazendo terapia?',

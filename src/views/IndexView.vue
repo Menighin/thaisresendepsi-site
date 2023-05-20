@@ -325,7 +325,7 @@ const faq1 = ref([
   },
   {
       title: 'Aceita plano de saúde?',
-      content: 'Não, apenas consultas particulares.'
+      content: 'As consultas são particulares, porém, você pode verificar com seu convênio o procedimento para conseguir reembolso da consulta.'
   },
   {
       title: 'Qual o valor das sessões? ',

@@ -4,8 +4,8 @@
       <div class="page-banner home-banner">
         <div class="row align-items-center flex-wrap-reverse h-100">
           <div class="col-md-6 py-5 wow fadeInLeft">
-            <h1 class="mb-4">Psicóloga, Psicanalista e Especialista em Saúde Mental</h1>
-            <p class="text-lg mb-2">Atendimento psicológico em Belo Horizonte e, online, para qualquer localidade.</p>
+            <h1 class="mb-4">Psicanalista Lacaniana, Psicóloga e Especialista em Saúde Mental</h1>
+            <p class="text-lg mb-2">Atendimento individual de psicanálise em Belo Horizonte e, online, para qualquer localidade.</p>
             <p class="text-lg mb-5">CRP 04/56951</p>
           </div>
           <div class="col-md-6 wow slideInRight banner-image-container banner-large">
@@ -33,12 +33,31 @@
           <h2 class="title-section">Sobre mim</h2>
           <div class="divider"></div>
           <p>Olá!</p>
-          <p>Meu nome é Thais Aparecida Resende, sou Psicóloga (CRP-04/56951), Psicanalista em constante formação e Especialista em Saúde Mental.</p>
-          <p>Me apaixonei pela Psicanálise a partir da experiência e dos efeitos que eu senti na minha própria vida. A partir do momento em que encontrei um espaço para que eu pudesse falar e entender as minhas responsabilidades em minhas próprias queixas, pude me movimentar, entender melhor o que se passava comigo e ressignificar vários pontos da minha própria vida.</p>
-          <p>Esse encontro se deu durante a faculdade de Psicologia, e durante a graduação, já comecei a sustentar meu tripé de formação - análise pessoal, estudo da teoria e supervisão dos casos. </p>
-          <p>Ainda, durante a graduação, tive experiência de atuar na clínica escola da PUC Minas, em empresas e hospitais. A temática do meu trabalho de conclusão de curso foi voltado para o trabalho da Psicanálise com idosos e em processos de luto.</p>
-          <p>Assim que finalizei a graduação, ingressei na Residência Integrada de Saúde Mental, do Hospital Municipal Odilon Behrens, onde tive experiência de trabalhar e cuidar de pessoas em intenso sofrimento e crise na saúde mental, e em uso intenso de álcool e outras substâncias psicoativas.</p>
-          <p>Hoje, atuo como Psicóloga Clínica em Consultório Particular situado em Belo Horizonte, com atendimentos presenciais e online.</p>
+          <p>
+            Meu nome é Thais Aparecida Resende, sou Psicanalista Lacaniana em constante formação, tanto em estudos independentes, quanto na participação em núcleos de 
+            pesquisa na Escola Brasileira de Psicanálise.
+          </p>
+          <p>
+            Possuo formação em Psicologia pela PUC Minas, e tenho o título de Especialista em Saúde Mental por ter realizado o programa de Residência Multiprofissional de 
+            mesmo nome no Hospital Metropolitano Odilon Behrens.
+          </p>
+          <p>
+            Sigo em formação psicanalítica há 7 anos, e muito diferente de alguns colegas que se encantaram primeiro pelo contato com a teoria na faculdade, eu só fui me 
+            aproximar da Psicanálise pelos efeitos que ela teve em mim de forma prática, quando eu me submeti ao processo analítico.
+          </p>
+          <p>
+            A partir desses efeitos que colhi da minha própria análise, que fui me aproximando da teoria para afiar a escuta e conhecer a lógica e a técnica que estão 
+            na base do meu trabalho enquanto analista.
+          </p>
+          <p>
+            Como analista, da porta pra dentro do consultório, ou até mesmo no consultório de forma online, prezo pelo acolhimento, pela escuta interessada e atenta 
+            a cada pessoa que topa trazer suas questões que causam sofrimentos, incômodos, afetam relacionamentos, trabalhos, para que possamos trabalhar juntos na construção de 
+            um saber sobre essas questões inconscientes que trazem tanto mal-estar.
+          </p>
+          <p>
+            Já atuei em hospitais, clínicas, empresas e serviços de urgência em saúde mental na rede de atenção de Belo Horizonte, mas hoje me dedico exclusivamente aos atendimentos 
+            para adultos e idosos em meu consultório particular.
+          </p>
         </div>
         <div class="col-lg-6 py-3 wow fadeInRight">
           <div class="img-fluid py-3 text-center">
@@ -59,25 +78,40 @@
           </div>
         </div>
         <div class="col-lg-6 py-3 content-text wow fadeInRight">
-          <h2 class="title-section">Como posso ajudar?</h2>
+          <h2 class="title-section">O que é o inconsciente e como ele pode ser trabalhado nas sessões?</h2>
           <div class="divider"></div>
             <p>
-              Durante minha trajetória profissional, tive vivências na clínica com adolescentes, adultos e idosos, em hospitais, 
-              empresas e em instituições de cuidado em saúde mental. Tudo isso somou-se ao meu desejo de escutar as pessoas, sobre 
-              seus sofrimentos, modos de relacionar com elas mesmas e com o mundo, e acolhê-las e auxiliá-las a passar 
-              por esses momentos difíceis, e, a partir disso, construir novas possibilidades e formas de ser no mundo.
+              Pela via do senso comum, quando algo é inconsciente, significa que não temos acesso fácil, consciente, a algum pensamento, 
+              sentimento ou ação, tampouco sabemos o que significa e porque acontece. Sigmund Freud, o pai da Psicanálise, tinha uma frase 
+              valiosíssima para podermos pensar o inconsciente: “o eu não é senhor nem mesmo em sua própria casa”, ou seja, não somos 
+              conscientes de tudo que se passa em nossa própria mente, muito menos temos controle de tudo. Há um saber ainda não sabido sobre si!
             </p>
             <p>
-              Entendo que não somos senhores em nossas próprias casas, e muitos dos sofrimentos atuais perpassam por 
-              questões inconscientes - muitas vezes as pessoas não conseguem perceber o motivo de tanta angústia e tanto 
-              adoecimento.
+              Atualmente tem havido muito espaço para nomear e tentar solucionar qualquer sofrimento psíquico. Termos como procrastinação, TDAH, 
+              falta de disciplina, tem inundado as redes sociais e cada especialista passa a sua receita para resolver X problema, seguindo o passo A B C D.
             </p>
             <p>
-              Para isso, trabalho respeitando os preceitos do Código de Ética do Psicólogo, criando um ambiente acolhedor, 
-              livre de julgamentos, com respeito e sigilo, e também, pautado na ética da Psicanálise, que entende que cada 
-              pessoa e história é única, e a direção de cada tratamento respeita isso, sendo uma clínica do caso a caso.
+              Para algumas pessoas, seguir passos e estratégias, às vezes, pode ajudar, mas outras acabam se frustrando mais ainda por não conseguirem resolver tais questões de 
+              forma consciente. Por que esse sintoma pode estar em uma outra ordem, a inconsciente, e a via de trabalho dessas questões é outra: é pela via da elaboração dos sintomas, 
+              repetições, através do trabalho de análise.
             </p>
-            <a href="https://site.cfp.org.br/wp-content/uploads/2012/07/codigo-de-etica-psicologia.pdf" target="_blank" class="">Acesse o código de ética do psicólogo</a>
+            <p>
+              Mas como se acessa esse inconsciente? Através da linguagem. O inconsciente é estruturado como uma linguagem, está na ponta da língua. A linguagem não nos serve apenas 
+              como meio de comunicação, ela tem um peso muito importante na nossa constituição psíquica. Antes de nascermos neste mundo, nascemos na fala de nossas figuras parentais,
+              nas expectativas e desejos de como iremos ser, na escolha do nome, nas características que carregamos ao longo da vida, posteriormente na forma como interpretamos e 
+              organizamos nossas experiências, ideias, ideais, vontades, e até nos discursos dos outros que tomamos como próprios.
+            </p>
+            <p>
+              Enquanto na análise o paciente (potencial analisando, marcando uma postura mais ativa e de trabalho de análise ao longo do processo) é convocado a falar livremente 
+              sobre o que lhe vêm à mente; o analista, por outro, está atento ao posicionamento inconsciente do sujeito nas relações, às repetições, ao uso de algumas palavras 
+              (significantes) e o modo como opera com elas, além de outros termos psicanalíticos mais técnicos, mas fato é que o analista tem uma função de leitura do discurso 
+              inconsciente. 
+            </p>
+            <p>
+              A partir dessa leitura, de uma construção teórica do caso clínico, a construção do trabalho nas sessões vai sendo realizada através de intervenções, questionamentos, 
+              pontuações, cortes no discurso. O diferencial do trabalho analítico é o fato de ser muito artesanal, construído, personalizado, pois cada pessoa e as questões 
+              inconscientes que são articuladas ali, são únicas.
+            </p>
         </div>
       </div>
       
@@ -241,7 +275,7 @@
           <h2 class="title-section">Atendimento Presencial</h2>
           <div class="divider"></div>
           <p>
-            O atendimento presencial ocorre em um consultório na Avenida Álvares Cabral, no bairro Lourdes, 
+            O atendimento presencial ocorre em meu consultório na Avenida Álvares Cabral, no bairro Lourdes, 
             em Belo Horizonte. É um ambiente acolhedor, silencioso, que ocorre de forma individual e em horários 
             previamente agendados. 
           </p>
@@ -269,7 +303,7 @@
             O atendimento online é autorizado pelo Conselho Federal de Psicologia desde a pandemia, e é reconhecido por ter a mesma 
             potência que um atendimento presencial, no consultório do profissional, mas claro, isso também é avaliado caso a caso. 
             Mas o atendimento online é uma boa alternativa para quem tem uma rotina apertada e não consegue se locomover a 
-            tempo para o consultório, ou até mesmo se estiver em outra cidade/estado
+            tempo para o consultório, ou até mesmo se estiver em outra cidade/estado.
           </p>
           <p>
             Para que o atendimento online tenha sucesso, é preciso que você esteja em um ambiente sozinho, com privacidade e 
@@ -320,31 +354,36 @@
 
 const faq1 = ref([
   {
-      title: 'Como saber se preciso de atendimento psicológico?',
-      content: 'Caso você esteja enfrentando dificuldades no relacionamento com você mesmo, e com as pessoas ao seu redor, se a sua forma de funcionar na vida antes não tem funcionado mais agora, e tem trazido angústia. Se algo tem te incomodado, tem sido doloroso, enfim... Os motivos são muitos para se procurar por um processo terapêutico, e também muito individuais. Além do estalo de “preciso de ajuda psicológica”, é importante que você deseje iniciar o processo, que deseje fazer esse investimento em você. '
+      title: 'Como funciona a primeira sessão?',
+      content: 'A primeira sessão é um momento de nos conhecermos, eu entender um pouco do motivo do tratamento nesse momento de vida, história de vida, rotina; é um momento de tirar dúvidas sobre o trabalho das sessões e fazer combinados caso haja desejo de ambas as partes de iniciar o trabalho analítico, como dia e horário para as sessões, pagamento, como proceder em relação a faltas e remarcações, etc. Caso haja interesse em agendar uma primeira sessão, deverá ser feito contato prévio comigo pelo WhatsApp para combinarmos dia e horário. Informações de contato estão ao final desta página!'
   },
   {
-      title: 'Aceita plano de saúde?',
-      content: 'As consultas são particulares, porém, você pode verificar com seu convênio o procedimento para conseguir reembolso da consulta.'
+      title: 'As sessões duram em média quantos minutos? E qual a frequência das sessões?',
+      content: 'O tempo de duração das sessões é variável. É necessário separar uma hora em sua agenda para ter disponível para as sessões, mas não quer dizer que todas as sessões durarão esse período. Faz parte da técnica a suspensão da sessão em algum ponto que seja definido pelo profissional, com o objetivo de gerar efeitos que sejam importantes naquele tratamento. Quanto à frequência, combino com meus analisandos sessões semanais.'
   },
   {
-      title: 'Qual o valor das sessões? ',
-      content: 'O valor da sessão é informado no contato direto via WhatsApp, diretamente para a pessoa interessada em meu trabalho.'
+      title: 'É verdade que psicanalista não fala?',
+      content: 'Isso é um mito/fama de psicanalista, né?! Mas isso diz muito mais do perfil de cada profissional, juntamente com as estratégias utilizadas por cada analista, na condução de cada processo de análise. Eu estou atenta a tudo que é dito na análise, há momentos em que também pergunto, pontuo, intervenho, mas a análise é um momento do analisando, o analisando quem é o protagonista, portanto o espaço maior de fala é sim dele, mas não quer dizer que seja um monólogo.'
+  },
+  {
+      title: 'Os efeitos de uma análise demoram muito tempo para aparecer?',
+      content: 'Não tem como prever tempo, nem exatamente quais efeitos. Alguns experimentam efeitos terapêuticos das sessões desde o início, porque se passa a ter um local para falar livremente de questões que trazem sofrimento, mas a construção do saber sobre as questões inconscientes leva tempo. Costumo dizer que X anos de vida (insira sua idade aqui rs) não se trabalham em poucas sessões. É preciso tempo, dedicação ao processo, trazer suas questões para que algo se movimente.'
   },
 ]);
 
 const faq2 = ref([
+
   {
-      title: 'Qual a frequência das sessões?',
-      content: 'Na primeira sessão, além de ser o momento de nos conhecermos e eu entender como poderemos trabalhar, também iremos avaliar em conjunto, sobre a frequência das sessões. Lembrando que uma frequência maior é de extrema importância para o andamento do processo terapêutico.'
+      title: 'Qual o valor da sessão?',
+      content: 'O valor é informado no primeiro contato, diretamente para a pessoa interessada em fazer as sessões comigo.'
   },
   {
-      title: 'Quanto tempo ficarei fazendo terapia?',
-      content: 'Enquanto houver desejo de estar ali. Não tem como fazer uma previsão de em quanto tempo você verá mudanças, pois cada caso é único. De qualquer forma, a terapia é um investimento que pode ser pensado em médio/longo prazo. Costumo dizer que X anos de vida (insira sua idade aqui rs) não se trabalham em poucas sessões de terapia. É preciso tempo, dedicação ao processo, trazer suas questões para que algo se movimente.'
+      title: 'Aceita plano de saúde?',
+      content: 'As consultas são particulares, porém, você pode verificar com seu convênio a possibilidade de  reembolso da consulta. Se for proceder pela via do reembolso, todo o trâmite é realizado entre o analisando e o convênio, minha responsabilidade é apenas a emissão da nota fiscal contendo o investimento financeiro realizado no mês. Pode ser interessante buscar informações antes com seu convênio para saber como proceder!'
   },
   {
       title: 'Há indicação de medicação, se necessário?',
-      content: 'Psicólogo não prescreve medicação, pois não tem formação em Medicina. Mas caso se avalie a importância de iniciar uso de medicação, faço a indicação de algum Psiquiatra de minha confiança. Nesse caso, o tratamento se dará de forma multiprofissional, pois o uso de medicação não exclui a importância de se trabalhar as questões dentro do espaço da terapia/análise com um Psicólogo.'
+      content: 'Eu não prescrevo medicação, pois não sou médica! Mas caso seja avaliada a importância de iniciar o uso, sinalizo isso em atendimento, e assim você poderá buscar um psiquiatra para fazer uma avaliação, mas caso não tenha conhecimento de nenhum, posso fazer a indicação de algum profissional de minha confiança. Nesse caso, o tratamento se dará de forma multiprofissional, pois o uso de medicação não exclui a importância de se trabalhar as questões dentro do espaço da análise.'
   }
 ]);
 

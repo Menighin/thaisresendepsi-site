@@ -77,7 +77,7 @@
             <img src="../assets/img/how_can_i_help.jpg" alt="Foto de Thais sentada em seu consultório" width="500" class="thais-pic">
           </div>
         </div>
-        <div class="col-lg-6 py-3 content-text wow fadeInRight">
+        <div class="col-lg-6 py-3 wow fadeInRight text-justify">
           <h2 class="title-section">O que é o inconsciente e como ele pode ser trabalhado nas sessões?</h2>
           <div class="divider"></div>
             <p>
@@ -271,7 +271,7 @@
         <div class="divider mx-auto"></div>
       </div>
       <div class="row align-items-center">
-        <div class="col-lg-6 py-3 content-text wow fadeInUp">
+        <div class="col-lg-6 py-3 text-justify wow fadeInUp">
           <h2 class="title-section">Atendimento Presencial</h2>
           <div class="divider"></div>
           <p>
@@ -296,7 +296,7 @@
             <img src="../assets/img/online.jpg" alt="Thais atendendo online de sua mesa com o Notebook" class="thais-pic">
           </div>
         </div>
-        <div class="col-lg-6 py-3 content-text wow fadeInUp">
+        <div class="col-lg-6 py-3 text-justify wow fadeInUp">
           <h2 class="title-section">Atendimento Online</h2>
           <div class="divider"></div>
           <p>

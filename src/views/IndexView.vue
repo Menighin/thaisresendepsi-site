@@ -9,10 +9,10 @@
             <p class="text-lg mb-5">CRP 04/56951</p>
           </div>
           <div class="col-md-6 wow slideInRight banner-image-container banner-large">
-            <img src="../assets/img/banner-large.jpg" alt="">
+            <img src="../assets/img/banner-large.webp" alt="">
           </div>
           <div class="col-md-6 wow slideInDown banner-image-container-small banner-small">
-            <img src="../assets/img/banner-small.jpg" alt="">
+            <img src="../assets/img/banner-small.webp" alt="">
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
         </div>
         <div class="col-lg-6 py-3 wow fadeInRight">
           <div class="img-fluid py-3 text-center">
-            <img src="../assets/img/about_me.jpg" alt="Thais sorrindo sentada em seu consultório" class="thais-pic">
+            <img src="../assets/img/about_me.webp" alt="Thais sorrindo sentada em seu consultório" class="thais-pic">
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6 py-3 wow fadeInLeft">
             <div class="img-fluid py-3 text-center">
-            <img src="../assets/img/how_can_i_help.jpg" alt="Foto de Thais sentada em seu consultório" width="500" class="thais-pic">
+            <img src="../assets/img/how_can_i_help.webp" alt="Foto de Thais sentada em seu consultório" width="500" class="thais-pic">
           </div>
         </div>
         <div class="col-lg-6 py-3 wow fadeInRight text-justify">
@@ -286,7 +286,11 @@
         </div>
         <div class="col-lg-6 py-3 wow fadeInUp">
           <div class="img-fluid py-3 text-center">
-            <img src="../assets/img/map.jpg" alt="Mapa do Google Maps indicando onde fica o consultório" class="thais-pic">
+            <carousel style="width: 500px;">
+              <img src="../assets/img/map.jpg" alt="Mapa do Google Maps indicando onde fica o consultório" class="thais-pic">
+              <img src="../assets/img/map2.jpg" alt="Mapa do Google Maps indicando onde fica o consultório" class="thais-pic">
+              <img src="../assets/img/map2.jpg" alt="Mapa do Google Maps indicando onde fica o consultório" class="thais-pic">
+            </carousel>
           </div>
         </div>
       </div>
@@ -350,6 +354,7 @@
   import EatingDisorders from '../assets/icons/EatingDisorders.svg';
   import Addictions from '../assets/icons/Addictions.svg';
   import CollapsableGroup from '../components/CollapsableGroup.vue';
+  import Carousel from '../components/Carousel.vue';
   import { ref } from 'vue';
 
 const faq1 = ref([

@@ -29,7 +29,7 @@
   <div class="page-section" id="about">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-6 py-3 wow fadeInUp text-justify">
+        <div class="col-lg-6 py-3 wow fadeInLeft text-justify">
           <h2 class="title-section">Sobre mim</h2>
           <div class="divider"></div>
           <p>Olá!</p>
@@ -270,8 +270,17 @@
         <h2 class="title-section">Serviços</h2>
         <div class="divider mx-auto"></div>
       </div>
-      <div class="row align-items-center">
-        <div class="col-lg-6 py-3 text-justify wow fadeInUp">
+      <div class="text-center wow fadeInUp">
+        <carousel class="carousel-pic">
+          <img src="../assets/img/office_01.webp" alt="Foto da sala de espera café" class="carousel-pic">
+          <img src="../assets/img/office_02.webp" alt="Foto da sala de espera completa" class="carousel-pic">
+          <img src="../assets/img/office_03.webp" alt="Foto do consultório angulo 1" class="carousel-pic">
+          <img src="../assets/img/office_04.webp" alt="Foto do consultório angulo 2" class="carousel-pic">
+          <img src="../assets/img/office_05.webp" alt="Foto do consultório angulo 3" class="carousel-pic">
+        </carousel>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 py-3 text-justify wow fadeInLeft">
           <h2 class="title-section">Atendimento Presencial</h2>
           <div class="divider"></div>
           <p>
@@ -283,24 +292,18 @@
             Caso tenha interesse em agendar uma sessão e ter acesso a maiores informações, entre em contato no Whatsapp abaixo.
           </p>
           <a class="btn btn-primary" target="_blank" href="https://api.whatsapp.com/send?phone=5531995169604"><span class="mai-logo-whatsapp"></span> (31) 9 9516 9604</a>
+          <br />
+          <br />
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.9597551993993!2d-43.941271624008266!3d-19.926100681461453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699e6c95c39d5%3A0xe4c758690a50a9bb!2sAv.%20%C3%81lvares%20Cabral%2C%20374%20-%20Centro%2C%20Belo%20Horizonte%20-%20MG%2C%2030170-001!5e0!3m2!1sen!2sbr!4v1739740923412!5m2!1sen!2sbr" 
+            width="100%" 
+            height="400" 
+            style="border:0;" allowfullscreen="true" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+          />
         </div>
-        <div class="col-lg-6 py-3 wow fadeInUp">
-          <div class="img-fluid py-3 text-center">
-            <carousel style="width: 500px;">
-              <img src="../assets/img/map.jpg" alt="Mapa do Google Maps indicando onde fica o consultório" class="thais-pic">
-              <img src="../assets/img/map2.jpg" alt="Mapa do Google Maps indicando onde fica o consultório" class="thais-pic">
-              <img src="../assets/img/map2.jpg" alt="Mapa do Google Maps indicando onde fica o consultório" class="thais-pic">
-            </carousel>
-          </div>
-        </div>
-      </div>
-      <div class="row align-items-center">
-        <div class="col-lg-6 py-3 wow fadeInUp">
-          <div class="img-fluid py-3 text-center">
-            <img src="../assets/img/online.jpg" alt="Thais atendendo online de sua mesa com o Notebook" class="thais-pic">
-          </div>
-        </div>
-        <div class="col-lg-6 py-3 text-justify wow fadeInUp">
+        <div class="col-lg-6 py-3 text-justify wow fadeInRight">
           <h2 class="title-section">Atendimento Online</h2>
           <div class="divider"></div>
           <p>
@@ -375,7 +378,6 @@ const faq1 = ref([
       content: 'Não tem como prever tempo, nem exatamente quais efeitos. Alguns experimentam efeitos terapêuticos das sessões desde o início, porque se passa a ter um local para falar livremente de questões que trazem sofrimento, mas a construção do saber sobre as questões inconscientes leva tempo. Costumo dizer que X anos de vida (insira sua idade aqui rs) não se trabalham em poucas sessões. É preciso tempo, dedicação ao processo, trazer suas questões para que algo se movimente.'
   },
 ]);
-
 const faq2 = ref([
 
   {

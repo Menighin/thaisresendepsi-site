@@ -66,6 +66,7 @@ export default {
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
+  border-radius: 50px;
 }
 
 .carousel-inner {

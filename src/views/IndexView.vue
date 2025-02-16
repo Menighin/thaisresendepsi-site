@@ -294,14 +294,15 @@
           <a class="btn btn-primary" target="_blank" href="https://api.whatsapp.com/send?phone=5531995169604"><span class="mai-logo-whatsapp"></span> (31) 9 9516 9604</a>
           <br />
           <br />
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.9597551993993!2d-43.941271624008266!3d-19.926100681461453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699e6c95c39d5%3A0xe4c758690a50a9bb!2sAv.%20%C3%81lvares%20Cabral%2C%20374%20-%20Centro%2C%20Belo%20Horizonte%20-%20MG%2C%2030170-001!5e0!3m2!1sen!2sbr!4v1739740923412!5m2!1sen!2sbr" 
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4351.242037210497!2d-43.9396678150025!3d-19.92601154177175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6996f2b7ff35b%3A0x1483d11357269d6f!2sThais%20Resende%20-%20Psicanalista%20e%20Psic%C3%B3loga!5e0!3m2!1sen!2sus!4v1739744858483!5m2!1spt!2sus"
             width="100%" 
             height="400" 
-            style="border:0;" allowfullscreen="true" 
+            style="border:0;" 
+            allowfullscreen="" 
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade"
-          />
+          ></iframe>
         </div>
         <div class="col-lg-6 py-3 text-justify wow fadeInRight">
           <h2 class="title-section">Atendimento Online</h2>

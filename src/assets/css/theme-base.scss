@@ -1150,6 +1150,9 @@ a.text-dark:hover, a.text-dark:focus {
 .page-banner.home-banner {
   height: auto;
   overflow: hidden;
+  h1 {
+    font-size: 2rem;
+  }
 }
 
 .page-banner.home-banner .img-fluid {
@@ -1187,6 +1190,9 @@ a.text-dark:hover, a.text-dark:focus {
 @media (min-width: 768px) {
   .page-banner.home-banner {
     height: 540px;
+    h1 {
+      font-size: 2.5rem;
+    }
   }
 }
 

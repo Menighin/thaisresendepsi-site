@@ -871,7 +871,16 @@ a.text-dark:hover, a.text-dark:focus {
 
 .carousel-pic {
   max-width: 620px;
-  width: 400px !important;
+  width: 350px !important;
+}
+
+@media (max-width: 576px) {
+  .navbar .container .contacts {
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 @media (min-width: 576px) {
@@ -888,10 +897,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
 
   .navbar .container .contacts {
-    margin-top: 5px;
     display: block;
-    text-align: center;
-    width: 100%;
   }
 
   .carousel-pic {
